@@ -12,7 +12,108 @@ a {
   color: inherit;
 }
 
+h2 {
+  text-align: center;
+  font-family: "Hammersmith One";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media (min-width: 0px) {
+  h2 {
+    font-size: 20px;
+    padding: 5px;
+  }
+  body {
+    align-items: center;
+    justify-content: center;
+  }
+  p {
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .logos {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .download-content-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .logo {
+    margin: 20px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 992px) {
+  h2 {
+    font-size: 36px;
+    align-items: center;
+  }
+
+  p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .logos {
+    display: flex;
+    gap: 30px;
+  }
+
+  .download-content-mobile {
+    display: none;
+  }
+
+  .download-content-desktop {
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
 img,
 video {
   display: block;
 }
+/*# sourceMappingURL=index.34df27b5.css.map */
+
+.news-title {
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* je n'ai pas réussi à mettre le 
+"download-content-desktop" et les 3 
+logos à gauche malgré dans la fenêtre 
+"992px". */
